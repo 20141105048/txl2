@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		032166DA1D3380F80032A29B /* select.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032166D91D3380F80032A29B /* select.swift */; };
+		032166DC1D33885F0032A29B /* delete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032166DB1D33885F0032A29B /* delete.swift */; };
 		0331B8C01D2CA2B300800823 /* find.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0331B8BF1D2CA2B300800823 /* find.swift */; };
 		5A7BD5971C03278D00C3F9CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7BD5961C03278D00C3F9CF /* AppDelegate.swift */; };
 		5A7BD5991C03278D00C3F9CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7BD5981C03278D00C3F9CF /* ViewController.swift */; };
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		032166D91D3380F80032A29B /* select.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = select.swift; sourceTree = "<group>"; };
+		032166DB1D33885F0032A29B /* delete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = delete.swift; sourceTree = "<group>"; };
 		0331B8BF1D2CA2B300800823 /* find.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = find.swift; sourceTree = "<group>"; };
 		5A7BD5931C03278D00C3F9CF /* hangge_645.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hangge_645.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A7BD5961C03278D00C3F9CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -122,6 +126,8 @@
 				5A7BD5A21C03278D00C3F9CF /* Info.plist */,
 				5A7BD5C41C03280400C3F9CF /* hangge_645-Bridging-Header.h */,
 				0331B8BF1D2CA2B300800823 /* find.swift */,
+				032166D91D3380F80032A29B /* select.swift */,
+				032166DB1D33885F0032A29B /* delete.swift */,
 			);
 			path = hangge_645;
 			sourceTree = "<group>";
@@ -291,8 +297,10 @@
 			files = (
 				5A7BD5D01C0328B000C3F9CF /* String-Extras.swift in Sources */,
 				0331B8C01D2CA2B300800823 /* find.swift in Sources */,
+				032166DA1D3380F80032A29B /* select.swift in Sources */,
 				5A7BD5CE1C0328B000C3F9CF /* SQLiteDB.swift in Sources */,
 				5A7BD5CF1C0328B000C3F9CF /* SQLTable.swift in Sources */,
+				032166DC1D33885F0032A29B /* delete.swift in Sources */,
 				5A7BD5991C03278D00C3F9CF /* ViewController.swift in Sources */,
 				5A7BD5971C03278D00C3F9CF /* AppDelegate.swift in Sources */,
 			);

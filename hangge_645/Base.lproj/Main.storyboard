@@ -5,6 +5,104 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
+        <!--Select-->
+        <scene sceneID="Dy6-M6-5jd">
+            <objects>
+                <viewController id="0Ye-Al-vGy" customClass="select" customModule="hangge_645" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bbs-Lg-0ah"/>
+                        <viewControllerLayoutGuide type="bottom" id="Y0f-ch-iIP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CRI-d5-FeW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I4O-T9-e0b">
+                                <rect key="frame" x="49" y="73" width="246" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OgY-M4-YbR">
+                                <rect key="frame" x="49" y="28" width="30" height="30"/>
+                                <state key="normal" title="查询"/>
+                                <connections>
+                                    <action selector="chaxun:" destination="0Ye-Al-vGy" eventType="touchUpInside" id="Bg1-wF-HIK"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Kxs-ZR-JTb">
+                                <rect key="frame" x="35" y="150" width="240" height="239"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LHN-yZ-P6A">
+                                <rect key="frame" x="265" y="28" width="30" height="30"/>
+                                <state key="normal" title="返回"/>
+                                <connections>
+                                    <segue destination="qgL-fU-nIF" kind="modal" id="bWW-bn-zxK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="q" destination="Kxs-ZR-JTb" id="5P2-hL-hu1"/>
+                        <outlet property="x" destination="I4O-T9-e0b" id="hqX-MW-UGV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pg1-nt-11L" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="790" y="-1"/>
+        </scene>
+        <!--Delete-->
+        <scene sceneID="Xz7-Xp-aUe">
+            <objects>
+                <viewController id="tqo-Aa-fre" customClass="delete" customModule="hangge_645" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="svP-Tr-LQg"/>
+                        <viewControllerLayoutGuide type="bottom" id="LRp-rF-rzW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="txu-79-tJA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rha-Ak-3lc">
+                                <rect key="frame" x="49" y="102" width="239" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OLW-B6-ZLy">
+                                <rect key="frame" x="49" y="40" width="30" height="30"/>
+                                <state key="normal" title="删除"/>
+                                <connections>
+                                    <action selector="shanchu:" destination="tqo-Aa-fre" eventType="touchUpInside" id="roV-h3-Fdw"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hjK-xc-cw0">
+                                <rect key="frame" x="33" y="168" width="240" height="49"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wot-mg-Rud">
+                                <rect key="frame" x="258" y="46" width="30" height="30"/>
+                                <state key="normal" title="返回"/>
+                                <connections>
+                                    <segue destination="qgL-fU-nIF" kind="modal" id="Dkz-n0-vxX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="e" destination="rha-Ak-3lc" id="soi-tb-T4P"/>
+                        <outlet property="z" destination="hjK-xc-cw0" id="ahl-Eu-ZTg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="19K-rM-R5F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="441" y="79"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -153,7 +251,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Jel-9o-8Ns"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="d6G-Vr-Xf9">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AhM-43-Z7J">
@@ -164,10 +262,24 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TTN-in-ULc">
-                                <rect key="frame" x="145" y="192" width="30" height="30"/>
+                                <rect key="frame" x="145" y="152" width="30" height="30"/>
                                 <state key="normal" title="查看"/>
                                 <connections>
                                     <segue destination="4EM-Md-Wxt" kind="modal" id="Akh-i9-g28"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mwY-I7-wmi">
+                                <rect key="frame" x="145" y="213" width="30" height="30"/>
+                                <state key="normal" title="查询"/>
+                                <connections>
+                                    <segue destination="0Ye-Al-vGy" kind="modal" id="UrJ-Yx-adn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RkK-cT-GKf">
+                                <rect key="frame" x="145" y="269" width="30" height="30"/>
+                                <state key="normal" title="删除"/>
+                                <connections>
+                                    <segue destination="tqo-Aa-fre" kind="modal" id="Z3e-0w-y3b"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -180,7 +292,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="HHL-N5-kIO"/>
-        <segue reference="dka-eJ-u3W"/>
+        <segue reference="Akh-i9-g28"/>
+        <segue reference="bWW-bn-zxK"/>
     </inferredMetricsTieBreakers>
 </document>
