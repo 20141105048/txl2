@@ -38,7 +38,7 @@ class select: UIViewController {
             {
                 //获取最后一行数据显示
                 let tuser = sql[j]
-                q.text! += "姓名：" + String(tuser["uname"]!) + " 电话：" + String(tuser["mobile"]!) + " 邮箱：" + String(tuser["email"]!) + " 地址：" + String(tuser["address"]!)
+                q.text! += "姓名：" + String(tuser["uname"]!) + " 电话：" + String(tuser["mobile"]!) + " 邮箱：" + String(tuser["email"]!) + " 地址：" + String(tuser["address"]!)+"\n"
             }
                 
     }

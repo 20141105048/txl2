@@ -8,20 +8,18 @@
 
 import UIKit
 
-class delete: UIViewController {
+class delete:UIViewController {
     
     var db:SQLiteDB!
     
     @IBOutlet var z: UITextView!
     @IBOutlet var e: UITextField!
-   
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         db = SQLiteDB.sharedInstance()
-        //如果表还不存在则创建表（其中uid为自增主键）
         db.execute("create table if not exists user(uid integer primary key,name varchar(20),mobile varchar(20),email varcher(20),address varcher(20))")
+        
     }
     
     
@@ -43,9 +41,7 @@ class delete: UIViewController {
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-    
-    
+        
 }
 
