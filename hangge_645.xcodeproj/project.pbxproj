@@ -9,7 +9,17 @@
 /* Begin PBXBuildFile section */
 		032166DA1D3380F80032A29B /* select.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032166D91D3380F80032A29B /* select.swift */; };
 		032166DC1D33885F0032A29B /* delete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032166DB1D33885F0032A29B /* delete.swift */; };
+		033147FD1E168B3800BC64DF /* tuanshuang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033147FC1E168B3800BC64DF /* tuanshuang.swift */; };
+		033147FF1E16978100BC64DF /* tuanxian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033147FE1E16978100BC64DF /* tuanxian.swift */; };
 		0331B8C01D2CA2B300800823 /* find.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0331B8BF1D2CA2B300800823 /* find.swift */; };
+		037D906F1E14E2E700CA6640 /* tuandui.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037D906E1E14E2E700CA6640 /* tuandui.swift */; };
+		037D90711E14E65800CA6640 /* tuanxiang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037D90701E14E65800CA6640 /* tuanxiang.swift */; };
+		037D90731E14FE7E00CA6640 /* xiantuan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037D90721E14FE7E00CA6640 /* xiantuan.swift */; };
+		038605A41E11457F00BCAF72 /* xianshi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038605A31E11457F00BCAF72 /* xianshi.swift */; };
+		039988C81E1637D900425427 /* xituan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039988C71E1637D900425427 /* xituan.swift */; };
+		039988CA1E1649D500425427 /* tuanjifen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039988C91E1649D500425427 /* tuanjifen.swift */; };
+		039988CC1E1662A800425427 /* tuandan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039988CB1E1662A800425427 /* tuandan.swift */; };
+		039B1EEA1E0AB6050049F700 /* shuangda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039B1EE91E0AB6050049F700 /* shuangda.swift */; };
 		5A7BD5971C03278D00C3F9CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7BD5961C03278D00C3F9CF /* AppDelegate.swift */; };
 		5A7BD5991C03278D00C3F9CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7BD5981C03278D00C3F9CF /* ViewController.swift */; };
 		5A7BD59C1C03278D00C3F9CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A7BD59A1C03278D00C3F9CF /* Main.storyboard */; };
@@ -44,7 +54,17 @@
 /* Begin PBXFileReference section */
 		032166D91D3380F80032A29B /* select.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = select.swift; sourceTree = "<group>"; };
 		032166DB1D33885F0032A29B /* delete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = delete.swift; sourceTree = "<group>"; };
+		033147FC1E168B3800BC64DF /* tuanshuang.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tuanshuang.swift; sourceTree = "<group>"; };
+		033147FE1E16978100BC64DF /* tuanxian.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tuanxian.swift; sourceTree = "<group>"; };
 		0331B8BF1D2CA2B300800823 /* find.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = find.swift; sourceTree = "<group>"; };
+		037D906E1E14E2E700CA6640 /* tuandui.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tuandui.swift; sourceTree = "<group>"; };
+		037D90701E14E65800CA6640 /* tuanxiang.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tuanxiang.swift; sourceTree = "<group>"; };
+		037D90721E14FE7E00CA6640 /* xiantuan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = xiantuan.swift; sourceTree = "<group>"; };
+		038605A31E11457F00BCAF72 /* xianshi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = xianshi.swift; sourceTree = "<group>"; };
+		039988C71E1637D900425427 /* xituan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = xituan.swift; sourceTree = "<group>"; };
+		039988C91E1649D500425427 /* tuanjifen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tuanjifen.swift; sourceTree = "<group>"; };
+		039988CB1E1662A800425427 /* tuandan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tuandan.swift; sourceTree = "<group>"; };
+		039B1EE91E0AB6050049F700 /* shuangda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shuangda.swift; sourceTree = "<group>"; };
 		5A7BD5931C03278D00C3F9CF /* hangge_645.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hangge_645.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A7BD5961C03278D00C3F9CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A7BD5981C03278D00C3F9CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -92,13 +112,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		039B1EE61E0AB5860049F700 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				5A7BD5951C03278D00C3F9CF /* hangge_645 */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
 		5A7BD58A1C03278D00C3F9CF = {
 			isa = PBXGroup;
 			children = (
 				5A7BD5C81C03285F00C3F9CF /* libsqlite3.0.tbd */,
 				5A7BD5D31C03295E00C3F9CF /* data.db */,
 				5A7BD5CA1C0328B000C3F9CF /* SQLiteDB */,
-				5A7BD5951C03278D00C3F9CF /* hangge_645 */,
+				039B1EE61E0AB5860049F700 /* New Group */,
 				5A7BD5AA1C03278D00C3F9CF /* hangge_645Tests */,
 				5A7BD5B51C03278D00C3F9CF /* hangge_645UITests */,
 				5A7BD5941C03278D00C3F9CF /* Products */,
@@ -128,6 +156,16 @@
 				0331B8BF1D2CA2B300800823 /* find.swift */,
 				032166D91D3380F80032A29B /* select.swift */,
 				032166DB1D33885F0032A29B /* delete.swift */,
+				039B1EE91E0AB6050049F700 /* shuangda.swift */,
+				038605A31E11457F00BCAF72 /* xianshi.swift */,
+				037D906E1E14E2E700CA6640 /* tuandui.swift */,
+				037D90701E14E65800CA6640 /* tuanxiang.swift */,
+				037D90721E14FE7E00CA6640 /* xiantuan.swift */,
+				039988C71E1637D900425427 /* xituan.swift */,
+				039988C91E1649D500425427 /* tuanjifen.swift */,
+				039988CB1E1662A800425427 /* tuandan.swift */,
+				033147FC1E168B3800BC64DF /* tuanshuang.swift */,
+				033147FE1E16978100BC64DF /* tuanxian.swift */,
 			);
 			path = hangge_645;
 			sourceTree = "<group>";
@@ -297,12 +335,22 @@
 			files = (
 				5A7BD5D01C0328B000C3F9CF /* String-Extras.swift in Sources */,
 				0331B8C01D2CA2B300800823 /* find.swift in Sources */,
+				039B1EEA1E0AB6050049F700 /* shuangda.swift in Sources */,
+				039988CC1E1662A800425427 /* tuandan.swift in Sources */,
 				032166DA1D3380F80032A29B /* select.swift in Sources */,
+				033147FF1E16978100BC64DF /* tuanxian.swift in Sources */,
 				5A7BD5CE1C0328B000C3F9CF /* SQLiteDB.swift in Sources */,
 				5A7BD5CF1C0328B000C3F9CF /* SQLTable.swift in Sources */,
 				032166DC1D33885F0032A29B /* delete.swift in Sources */,
+				033147FD1E168B3800BC64DF /* tuanshuang.swift in Sources */,
 				5A7BD5991C03278D00C3F9CF /* ViewController.swift in Sources */,
+				039988C81E1637D900425427 /* xituan.swift in Sources */,
+				038605A41E11457F00BCAF72 /* xianshi.swift in Sources */,
+				037D90711E14E65800CA6640 /* tuanxiang.swift in Sources */,
+				039988CA1E1649D500425427 /* tuanjifen.swift in Sources */,
 				5A7BD5971C03278D00C3F9CF /* AppDelegate.swift in Sources */,
+				037D90731E14FE7E00CA6640 /* xiantuan.swift in Sources */,
+				037D906F1E14E2E700CA6640 /* tuandui.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,14 +1,14 @@
 //
-//  File.swift
+//  xiantuan.swift
 //  hangge_645
 //
-//  Created by l20141105048 on 16/7/6.
+//  Created by l20141105048 on 16/12/29.
 //  Copyright © 2016年 hangge.com. All rights reserved.
 //
 
 import UIKit
 
-class find: UIViewController {
+class xiantuan: UIViewController {
     var db:SQLiteDB!
     
     
@@ -19,21 +19,23 @@ class find: UIViewController {
     }
     
     
+    @IBOutlet var text: UITextView!
     
-    @IBOutlet weak var text: UITextView!
+   
     var temp=0
     var tem=0
     
     override func viewDidLoad() {
         super.viewDidLoad()
         db = SQLiteDB.sharedInstance()
-        db.execute("create table if not exists lin(uid integer primary key,uname varchar(20),mobile varchar(20),email varchar(20),address varchar(20),jieguo varchar(20))")
+        db.execute("create table if not exists lin5(uid integer primary key,name1 varchar(20),name2 varchar(20),uname1 varchar(20),uname2 varchar(20),uname3 varchar(20),mobile1 varchar(20),mobile2 varchar(20),mobile3 varchar(20),mobile4 varchar(20))")
+        
+    }
+    @IBAction func add(sender: AnyObject) {
+         selete()
         
     }
     
-    @IBAction func xianshi(sender: AnyObject) {
-        selete()
-    }
     
     func selete(){
         text.text=""
@@ -44,7 +46,7 @@ class find: UIViewController {
         {
             //获取最后一行数据显示
             let tuser = data[x]
-            text.text! += "甲：" + String(tuser["uname"]!) + " vs乙：" + String(tuser["mobile"]!) + " 比分：" + String(tuser["email"]!) + " ： " + String(tuser["address"]!) + String(tuser["jieguo"]!)+"\n"
+            text.text! += "甲：" + String(tuser["name1"]!) + String(tuser["name2"]!) + String(tuser["uname1"]!) + " vs乙：" + String(tuser["uname2"]!) + String(tuser["uname3"]!) + String(tuser["mobile1"]!) + String(tuser["mobile2"]!) + String(tuser["mobile3"]!) + String(tuser["mobile4"]!)+"\n"
             
         }
         
@@ -62,62 +64,6 @@ class find: UIViewController {
     
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
